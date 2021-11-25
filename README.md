@@ -24,7 +24,7 @@ pip install pi_shiftreg
 Example:
 ```python
 import pi_shiftreg
-pi_shiftreg.init_state(24, 17, 18, 27, write_statea_out_to="myfile.txt")
+pi_shiftreg.init_state(24, 17, 18, 27, write_state_out_to="myfile.txt")
 ```
 
 ### set_state
