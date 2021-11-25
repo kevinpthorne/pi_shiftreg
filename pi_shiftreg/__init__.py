@@ -6,7 +6,7 @@ A simple tool for controlling Shift Registers with RPi GPIO pins
 Call init_state() before using set_state()
 """
 
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 __author__ = 'Kevin Thorne'
 
 
@@ -125,6 +125,6 @@ def _apply():
     _current_state = tuple(_state_to_apply)
     if _write_state_out_to:
         with open(_write_state_out_to, mode='w') as f:
-            f.write(_current_state)
+            f.write(str(_current_state))
 
     time.sleep(_applicator_delay)

@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='pi_shiftreg',
-    version='0.1.0',    
+    version='0.1.1',    
     description='A simple tool for controlling Shift Registers with RPi GPIO pins',
     url='https://github.com/kevinpthorne/pi_shiftreg',
     author='Kevin Thorne',
