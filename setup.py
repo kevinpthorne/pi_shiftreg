@@ -1,5 +1,7 @@
 from setuptools import setup
 
+from pi_shiftreg import __version__ as version
+
 setup(
     name='pi_shiftreg',
     version='0.1.0',    
